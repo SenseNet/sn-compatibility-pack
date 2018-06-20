@@ -173,6 +173,7 @@
     <Compile Include="ApplicationModel\SurveySettingsScenario.cs" />
     <Compile Include="ApplicationModel\VotingAddFieldScenario.cs" />
     <Compile Include="ApplicationModel\VotingSettingsScenario.cs" />
+    <Compile Include="CompatibilityComponent.cs" />
     <Compile Include="Configuration\Journal.cs" />
     <Compile Include="ContentHandlers\BlogPost.cs" />
     <Compile Include="ContentHandlers\EventRegistrationForm.cs" />
