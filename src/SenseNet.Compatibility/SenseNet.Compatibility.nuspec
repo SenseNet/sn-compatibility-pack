@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SenseNet.Compatibility</id>
-    <version>7.1.4</version>
+    <version>7.2.0</version>
     <title>sensenet 6 Compatibility pack</title>
     <authors>kavics,aniko,lajos,tusmester</authors>
     <owners>Sense/Net</owners>
-    <licenseUrl>https://github.com/SenseNet/sensenet/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/SenseNet/sn-compatibility</projectUrl>
+    <licenseUrl>https://github.com/SenseNet/sn-compatibility-pack/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-compatibility-pack</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Compatibility pack for the sensenet platform containing old APIs for portals that were upgraded from sensenet 6.</description>
@@ -15,8 +15,8 @@
     <copyright>Copyright © Sense/Net Inc.</copyright>
     <tags>sensenet compatibility</tags>
     <dependencies>
-      <dependency id="SenseNet.Services" version="7.1.4" />
-      <dependency id="SenseNet.WebPages" version="7.1.0" />
+      <dependency id="SenseNet.Services" version="7.2.0" />
+      <dependency id="SenseNet.WebPages" version="7.2.0" />
     </dependencies>
   </metadata>
   <files>
