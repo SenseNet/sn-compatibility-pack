@@ -1,4 +1,5 @@
-﻿using SenseNet.ContentRepository;
+﻿using System;
+using SenseNet.ContentRepository;
 
 namespace SenseNet.Compatibility
 {
@@ -11,5 +12,6 @@ namespace SenseNet.Compatibility
     internal class CompatibilityComponent : SnComponent
     {
         public override string ComponentId => "SenseNet.Compatibility";
+        public override Version SupportedVersion => new Version(7, 3, 3);
     }
 }
